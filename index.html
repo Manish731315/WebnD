@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlow - Modern Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Enhanced Competition-Grade Loader -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <div class="loader-text">TechFlow</div>
+            <div class="loader-subtitle">Loading Experience...</div>
+            <div class="loader-progress">
+                <div class="loader-bar"></div>
+            </div>
+            <div class="loader-percentage" id="loadingPercentage">0%</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">TechFlow</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#customers">Customers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">🌙</button>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Modern Solutions for Tomorrow</h1>
+                <p class="hero-subtitle">Empowering businesses with cutting-edge technology and innovative solutions
+                    that drive growth and success.</p>
+                <a href="#features" class="cta-button ripple">Get Started</a>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <h3>🚀 Innovation</h3>
+                    <p>Leading the future with advanced technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel Section -->
+    <section class="carousel-section">
+        <div class="container">
+            <h2 class="section-title scroll-animate">Our Journey</h2>
+            <div class="carousel">
+                <div class="carousel-slides" id="carouselSlides">
+                    <div class="carousel-slide" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);">
+                        <div>
+                            <h3>Innovation First</h3>
+                            <p>Leading with cutting-edge technology</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" style="background: linear-gradient(135deg, #ec4899, #f59e0b);">
+                        <div>
+                            <h3>Client Success</h3>
+                            <p>Your success is our priority</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" style="background: linear-gradient(135deg, #10b981, #3b82f6);">
+                        <div>
+                            <h3>Future Ready</h3>
+                            <p>Building solutions for tomorrow</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn prev" id="prevBtn">‹</button>
+                <button class="carousel-btn next" id="nextBtn">›</button>
+                <div class="carousel-nav" id="carouselNav">
+                    <span class="carousel-dot active" data-slide="0"></span>
+                    <span class="carousel-dot" data-slide="1"></span>
+                    <span class="carousel-dot" data-slide="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title scroll-animate">Our Features</h2>
+            <div class="features-grid">
+                <div class="feature-card scroll-animate ripple">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Lightning Fast</h3>
+                    <p class="feature-description">Optimized performance with cutting-edge technology for maximum speed
+                        and efficiency.</p>
+                </div>
+                <div class="feature-card scroll-animate ripple">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">Secure</h3>
+                    <p class="feature-description">Enterprise-grade security with advanced encryption and protection
+                        protocols.</p>
+                </div>
+                <div class="feature-card scroll-animate ripple">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">Responsive</h3>
+                    <p class="feature-description">Perfect experience across all devices with adaptive design and
+                        functionality.</p>
+                </div>
+                <div class="feature-card scroll-animate ripple">
+                    <div class="feature-icon">🎨</div>
+                    <h3 class="feature-title">Beautiful Design</h3>
+                    <p class="feature-description">Modern, elegant interfaces that engage users and enhance experience.
+                    </p>
+                </div>
+                <div class="feature-card scroll-animate ripple">
+                    <div class="feature-icon">🔧</div>
+                    <h3 class="feature-title">Customizable</h3>
+                    <p class="feature-description">Flexible solutions tailored to your specific needs and requirements.
+                    </p>
+                </div>
+                <div class="feature-card scroll-animate ripple">
+                    <div class="feature-icon">💬</div>
+                    <h3 class="feature-title">24/7 Support</h3>
+                    <p class="feature-description">Round-the-clock assistance from our dedicated support team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title scroll-animate">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card scroll-animate ripple">
+                    <div class="service-number">01</div>
+                    <h3>Web Development</h3>
+                    <p>Custom web applications built with modern technologies and best practices.</p>
+                </div>
+                <div class="service-card scroll-animate ripple">
+                    <div class="service-number">02</div>
+                    <h3>Mobile Apps</h3>
+                    <p>Native and cross-platform mobile applications for iOS and Android.</p>
+                </div>
+                <div class="service-card scroll-animate ripple">
+                    <div class="service-number">03</div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Scalable cloud infrastructure and deployment solutions.</p>
+                </div>
+                <div class="service-card scroll-animate ripple">
+                    <div class="service-number">04</div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design that creates engaging digital experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Section -->
+    <section id="customers" class="customers">
+        <div class="container">
+            <h2 class="section-title scroll-animate">What Our Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card scroll-animate">
+                    <p class="testimonial-text">"TechFlow transformed our business with their innovative solutions. The
+                        team's expertise and dedication exceeded our expectations."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div class="author-info">
+                            <h4>John Doe</h4>
+                            <p>CEO, Tech Corp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card scroll-animate">
+                    <p class="testimonial-text">"Outstanding service and support. They delivered exactly what we needed,
+                        on time and within budget."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <h4>Sarah Miller</h4>
+                            <p>CTO, Innovation Labs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card scroll-animate">
+                    <p class="testimonial-text">"The attention to detail and quality of work is remarkable. Highly
+                        recommend TechFlow for any project."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MJ</div>
+                        <div class="author-info">
+                            <h4>Mike Johnson</h4>
+                            <p>Product Manager, StartupXYZ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechFlow</h3>
+                    <p>Empowering businesses with innovative technology solutions. Building the future, one project at a
+                        time.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <p><a href="#services">Web Development</a></p>
+                    <p><a href="#services">Mobile Apps</a></p>
+                    <p><a href="#services">Cloud Solutions</a></p>
+                    <p><a href="#services">UI/UX Design</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: manish@techflow.com</p>
+                    <p>Phone: +91 7050358946</p>
+                    <p>Address: Patna Bihar 800024</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechFlow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Popup Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <h2>Welcome to TechFlow!</h2>
+            <p>Discover how our innovative solutions can transform your business. Get started with a free consultation
+                today.</p>
+            <button class="cta-button ripple" id="modalCta">Get Free Consultation</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
