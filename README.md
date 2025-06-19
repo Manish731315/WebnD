@@ -42,8 +42,8 @@ Simply visit the Live Demo in your browser.
 Clone the repository
 
 bash
-git clone https://github.com/your-username/TechFlow.git
-cd TechFlow
+git clone https://github.com/Manish731315/WebnD.git
+cd TWebnD
 Open the project
 
 Open index.html in your web browser
