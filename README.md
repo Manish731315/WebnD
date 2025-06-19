@@ -34,7 +34,34 @@ Welcome to TechFlow, a modern, responsive, and feature-rich front-end project de
 <img src="Screenshot.png">
 
 
+<h2>📦 How to Use</h2>
+<h3>🖥️ View Online (Recommended)</h3>
+Simply visit the Live Demo in your browser.
 
+<h3>💻 Run Locally</h3>
+Clone the repository
+
+bash
+git clone https://github.com/your-username/TechFlow.git
+cd TechFlow
+Open the project
+
+Open index.html in your web browser
+(You can double-click it or open it with VS Code + Live Server extension)
+
+<h3>⚙️ Customize</h3>
+Update content directly in index.html
+
+Change styles in style.css
+
+Add/modify interactivity via script.js
+
+🧪 Optional: Use Live Server (VS Code)
+If you're using Visual Studio Code:
+
+Install the Live Server extension
+
+Right-click index.html > Open with Live Server
 
 
 
